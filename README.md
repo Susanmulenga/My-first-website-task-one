@@ -18,3 +18,24 @@
 
   </body>
  </html>
+
+
+   
+    <style type="text/">
+       /*page styles */
+
+      *,*: before,*: after {
+       -moz-box-sinzing: border-box; 
+       -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+
+      } 
+
+      body
+      {
+        background- colour: #0087E2;
+        color: White;
+        text-align: Center;
+        margin: 0;
+        font-family: Helvetica;
+      }
