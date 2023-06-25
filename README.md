@@ -38,4 +38,39 @@
         text-align: Center;
         margin: 0;
         font-family: Helvetica;
-      }
+     }
+       
+        /*Page Layout*/
+        header, 
+        nav,
+        section,
+        footer {
+          border:1px solid rgba(255,255,255,0.8);
+          margin-bottom:10px;
+          border-radius:3px;
+     }
+   
+       hearder, footer {
+         padding:20px0;
+     }
+     nav, section {
+       padding:200px 0;
+     }
+     . container {
+         width:960px;
+         margin:0 auto;
+     }
+     nav, section, footer {
+       float:left;
+     }
+     nav{
+       width: 200px;
+       margin-right: 10px;
+     }
+     section {
+       width: 750px;
+     }
+     footer {
+       width: 960px;
+     }
+    </style>
